@@ -13,7 +13,7 @@
 
     Function Contact() As ActionResult
         ViewData("Message") = "Your contact page."
-
+        Dim x = 10
         Return View()
     End Function
 End Class
